@@ -37,22 +37,38 @@ Write the detailed procedure here
 Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming.
 Developed by: Dhanashree.M
 RegisterNumber: 212221230018 
+# Half subtractor:
+~~~
+module full(output D,B,input x,y,z);
+assign D = x^y;
+assign B = (~x&y);
+endmodule
+~~~
+# Full Subtractor:
+
+~~~
+module full(output D,B,input x,y,z);
+assign D = x^y^z;
+assign B = (~x&(y^z)|(yz));
+endmodule
+~~~
+
 */
 
 ## Output:
-# Half Subtractor:
+## Half Subtractor:
 
 ![half  adder](https://user-images.githubusercontent.com/94165415/192109682-ba1d7669-e1a6-49fb-8977-e1dce0c08a4c.png)
-# Full Subtractor:
+## Full Subtractor:
 
 ![full](https://user-images.githubusercontent.com/94165415/192109721-a6969805-9da2-490f-a0be-3a9e24495fe9.png)
 
 
 ## Truthtable :
-# Half subtractor:
+## Half subtractor:
 
 ![Truth table](https://user-images.githubusercontent.com/94165415/192110132-2833496f-c1b0-449b-9f7e-f5348e2446d0.png)
-# Fulll Subtrctor:
+## Fulll Subtrctor:
 
 ![TR2](https://user-images.githubusercontent.com/94165415/192110146-f9641772-a09b-4bbe-b837-aaa5d0412831.png)
 
@@ -61,10 +77,10 @@ RegisterNumber: 212221230018
 
 
 ## Timing diagram :
-# Half Subtractor:
+## Half Subtractor:
 
 ![half](https://user-images.githubusercontent.com/94165415/192109792-9f4d6c98-dbbf-4108-8ddc-24270a79764d.png)
-# Full subtractor:
+## Full subtractor:
 ![wave form 2](https://user-images.githubusercontent.com/94165415/192109854-d996f376-b862-40f1-be84-61c9f0912984.png)
 
 
