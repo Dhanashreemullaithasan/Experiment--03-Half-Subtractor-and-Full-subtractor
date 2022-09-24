@@ -56,13 +56,6 @@ endmodule
 */
 
 ## Output:
-## Half Subtractor:
-
-![half  adder](https://user-images.githubusercontent.com/94165415/192109682-ba1d7669-e1a6-49fb-8977-e1dce0c08a4c.png)
-## Full Subtractor:
-
-![full](https://user-images.githubusercontent.com/94165415/192109721-a6969805-9da2-490f-a0be-3a9e24495fe9.png)
-
 
 ## Truthtable :
 ## Half subtractor:
@@ -75,6 +68,10 @@ endmodule
 
 ##  RTL realization :
 
+## Half Subtractor:
+![half  adder](https://user-images.githubusercontent.com/94165415/192109682-ba1d7669-e1a6-49fb-8977-e1dce0c08a4c.png)
+## Full Subtractor:
+![full](https://user-images.githubusercontent.com/94165415/192109721-a6969805-9da2-490f-a0be-3a9e24495fe9.png)
 
 ## Timing diagram :
 ## Half Subtractor:
